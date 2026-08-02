@@ -362,3 +362,13 @@ section {
 .light-mode nav a:hover::after {
     width: 100%;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 0.9rem;
+    }
+}
